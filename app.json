@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/homeselect.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "pages/images/look.png",
+        "selectedIconPath": "pages/images/looksearch.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "看房",
+        "iconPath": "pages/images/search.png",
+        "selectedIconPath": "pages/images/searchselect.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "pages/images/my.png",
+        "selectedIconPath": "pages/images/myselect.png"
+      }
+    ],
+    "selectedColor": "#57BEAD"
+  },
+  "sitemapLocation": "sitemap.json"
+}

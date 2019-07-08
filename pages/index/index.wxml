@@ -1,0 +1,126 @@
+<view class='main'>
+  <!-- 轮播图 -->
+  <view class='newsContainer'>
+    <swiper class='swiperContainer' indicator-dots autoplay interval="3500" duration="1000" circular>
+      <swiper-item>
+        <image class="swiperImg" src='../images/m1.jpg' data-='1'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="swiperImg" src='../images/m2.jpg' data-='2'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="swiperImg" src='../images/m3.jpg' data-='3'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 标签栏 -->
+  <view class='label'>
+    <!-- 第一栏图标 -->
+    <view class='iconContainer'>
+      <image class='labelIcon' src='../images/esf.png'></image>
+      <image class='labelIcon' src='../images/xf.png'></image>
+      <image class='labelIcon' src='../images/zf.png'></image>
+      <image class='labelIcon' src='../images/mf.png'></image>
+      <image class='labelIcon' src='../images/wt.png'></image>
+    </view>
+    <!-- 第一栏说明 -->
+    <view class='iconText'>
+      <text>二手</text>
+      <text>新房</text>
+      <text>租房</text>
+      <text>卖房</text>
+      <text>托管</text>
+    </view>
+    <!-- 第二栏小图标 -->
+    <view class='iconContainer'>
+      <image class='labelIcon' src='../images/zxq.png'></image>
+      <image class='labelIcon' src='../images/zgw.png'></image>
+      <image class='labelIcon' src='../images/yy.png'></image>
+      <image class='labelIcon' src='../images/yx.png'></image>
+      <image class='labelIcon' src='../images/gywm.png'></image>
+    </view>
+    <!-- 第二栏说明 -->
+    <view class='iconText'>
+      <text>找房</text>
+      <text>顾问</text>
+      <text>预约</text>
+      <text>优选</text>
+      <text>关于</text>
+    </view>
+  </view>
+  <view class='catline'></view>
+  <!-- 房价行情容器 -->
+  <view class='priceContainer'>
+    <!-- 标题和分割线 -->
+    <view class='priceTitle'>
+      <text>—  租房市场行情  —</text>
+    </view>
+    <view class='line'></view>
+    <!-- 全市均价和一个月房子成交量 -->
+    <view class='volumeContainer'>
+      <!-- 左侧容器 -->
+      <view class='Container'>
+        全市租房均价
+      </view>
+      <!-- 右侧容器 -->
+      <view class='Container'>
+        当月房间成交量
+      </view>
+    </view>
+    <!-- 详情 -->
+    <view class='price'>
+      <text>XXX 元/平米</text>
+      <text>XXX 套</text>
+    </view>
+  </view>
+  <view class='catline'></view>
+  <!-- 热门预约和查看全部按钮 -->
+  <view class='subscribeContainer'>
+    <view class='subscribe'>
+      <text class='left'>热门预约</text>
+      <text class='right'>查看全部></text>
+    </view>
+    <view class='line'></view>
+  </view>
+  <!-- 图片和说明容器 -->
+  <view class='picTextContainer'>
+    <view class='pic'>
+      <image src='../images/pic1.png' mode='widthFix'></image>
+    </view>
+    <view class='text1'>
+      <text>刚需优选小户型</text>
+    </view>
+    <view class='text2'>
+      <text>4口之家小户型，优惠新房任你选</text>
+    </view>
+  </view>
+  <!-- 价格面议 -->
+  <view class='facePriceContainer'>
+    <view class='facePrice'>价格面议</view>
+    <view class='yiyuyue'>已预约: {{}}套</view>
+    <view class='shengyu'>剩余: {{}}套</view>
+    <view class='subscribeNow'>立即预约</view>
+  </view>
+  <view class='catline'></view>
+
+  <!-- 二手精选 -->
+  <view class='secondElectionContainer'>
+    <view class='secondElection'>
+      <text>—  二手精选  —</text>
+    </view>
+    <view class='line'></view>
+  </view>
+
+  <!-- 两张图和说明 -->
+  <view class='secondContainer'>
+    <view class='pic'>
+      <image src='../images/pic1.png' mode='widthFix' style='background'></image>
+      <image src='../images/pic1.png' mode='widthFix' style='background'></image>
+    </view>
+    <view class='text'>
+      <text>小户型二居室</text>
+      <text>刚需三居室</text>
+    </view>
+  </view>
+  <view class='catline'></view>
+</view>

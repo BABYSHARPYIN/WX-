@@ -1,0 +1,231 @@
+.swiperContainer {
+  display: flex;
+}
+
+.swiperContainer image {
+  width: 100%;
+  height: 300rpx;
+  margin-bottom: 40rpx;
+}
+
+/* 小图标的容器（控制图标居中、边距） */
+
+.iconContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+}
+
+/* icon小图标 */
+
+.iconContainer image {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+/* 文字说明 */
+
+.label .iconText {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25rpx;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 30rpx;
+  margin-top: 15rpx;
+}
+
+/* 租房市场行情 */
+
+.priceContainer .priceTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+  font-size: 35rpx;
+  color: #696969;
+  font-weight: 700;
+}
+
+/* 均价和成交量两个容器的大容器 */
+
+.volumeContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/* 两个小容器 */
+
+.volumeContainer .Container {
+  display: flex;
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+
+/* 元每平米和成交量 */
+
+.priceContainer .price {
+  display: flex;
+  margin-top: 10rpx;
+  justify-content: space-around;
+  font-size: 40rpx;
+  font-weight: 650;
+  margin-bottom: 20rpx;
+}
+
+/* 分割条 */
+
+.catline {
+  display: flex;
+  margin-top: 0rpx;
+  height: 30rpx;
+  background-color: rgba(211, 211, 211, 0.432);
+}
+
+/* 热门预约和查看全部 */
+
+.subscribeContainer .subscribe {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+
+.subscribeContainer .subscribe .left {
+  display: flex;
+  margin-top: 30rpx;
+  font-weight: 600;
+  font-size: 30rpx;
+  color: red;
+}
+
+.subscribeContainer .subscribe .right {
+  display: flex;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  color: rgba(112, 112, 112, 0.616);
+}
+
+/* 分割细线 */
+
+.line {
+  display: flex;
+  margin-top: 30rpx;
+  height: 0.5rpx;
+  background-color: #d3d3d3;
+}
+
+.picTextContainer .pic {
+  display: flex;
+  margin-top: 35rpx;
+  justify-content: center;
+}
+
+.picTextContainer .pic image {
+  display: flex;
+  height: 400rpx;
+  width: 700rpx;
+  /* 圆角 */
+  border-radius: 50rpx;
+}
+
+.picTextContainer .text1 {
+  display: flex;
+  font-size: 30rpx;
+  font-weight: 550;
+  margin-left: 35rpx;
+  margin-top: 15rpx;
+  margin-bottom: 10rpx;
+}
+
+.picTextContainer .text2 {
+  display: flex;
+  font-size: 23rpx;
+  margin-left: 35rpx;
+  margin-bottom: 10rpx;
+  color: rgba(102, 102, 102, 0.842);
+}
+
+/* 价格面议 */
+
+.facePriceContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40rpx;
+}
+
+.facePriceContainer .facePrice {
+  display: flex;
+  margin-left: 35rpx;
+  color: rgb(87, 190, 173);
+  font-size: 30rpx;
+  font-weight: 550;
+}
+
+.facePriceContainer .yiyuyue {
+  display: flex;
+  margin-left: 35rpx;
+  margin-top: 10rpx;
+  color: rgb(69, 76, 69);
+  font-size: 20rpx;
+  font-weight: 500;
+}
+
+.facePriceContainer .shengyu {
+  display: flex;
+  margin-left: 50rpx;
+  margin-top: 10rpx;
+  color: rgb(69, 76, 69);
+  font-size: 20rpx;
+  font-weight: 500;
+}
+
+.facePriceContainer .subscribeNow {
+  display: flex;
+  height: 40rpx;
+  width: 120rpx;
+  border-radius: 20rpx;
+  margin-left: 170rpx;
+  border: 5rpx solid rgb(87, 190, 173);
+  font-size: 20rpx;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(87, 190, 173);
+  color: rgb(255, 255, 255);
+}
+
+/* 二手精选 */
+
+.secondElectionContainer .secondElection {
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+  font-size: 35rpx;
+  color: #696969;
+  font-weight: 700;
+}
+
+.secondContainer .pic {
+  display: flex;
+  margin-top: 35rpx;
+  justify-content: space-between;
+}
+
+.secondContainer .pic image {
+  display: flex;
+  /* 圆角 */
+  border-radius: 50rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.secondContainer .text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20rpx;
+  color: rgba(145, 145, 145, 0.61);
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
